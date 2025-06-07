@@ -42,7 +42,7 @@ $(document).ready(function(){
         //5. Call nextSequence() after a 1000 millisecond delay.
         setTimeout(function () {
           nextSequence();
-        }, 1000);
+        }, 1500);
 
       }
 
@@ -58,16 +58,7 @@ $(document).ready(function(){
     }
    }
   
-//    for(var i=0;i<parttenSequnce.length;i++){
-//     function check(id){
-//         if(id!==parttenSequnce[i]){
-//             $(".container").addClass("game-over");
-//             setTimeout(function(){
-//                  $(".container").removeClass("game-over");
-//             },100)
-//         }
-//     }
-//    }
+
    
  function animation(id){
     $("#"+id).addClass("pressed");
