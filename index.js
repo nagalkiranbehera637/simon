@@ -52,7 +52,7 @@ $(document).ready(function(){
                  $(".container").removeClass("game-over");
             },100)
             started=false;
-            $("h1").text("Press A Key to Start");
+            $("h1").text("Game Over, Press Any Key to Restart");
       console.log("wrong");
 
     }
